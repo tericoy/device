@@ -70,5 +70,6 @@ void FullColorLed::onTimer() {
     if (TIMER_FIRED(blink_timer_)) {
         TIMER_STOP(blink_timer_);
         isBlinking_ = false;
+        off(); //off()を追加することで消灯する
     }
 }

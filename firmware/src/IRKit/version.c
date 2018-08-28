@@ -14,4 +14,4 @@
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-const char version[] = "3.0.0.0.g85190b1";
+const char version[] = "3.0.0.0.g85190b1+1";
